@@ -1,0 +1,28 @@
+# Python
+
+venv/
+**pycache**/
+*.pyc
+*.pyo
+
+# Database
+
+*.db
+
+# Node
+
+frontend/node_modules/
+
+# Dataset files
+
+data/*
+!data/.gitkeep
+
+# Environment
+
+.env
+
+# OS
+
+.DS_Store
+Thumbs.db
