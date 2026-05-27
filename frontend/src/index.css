@@ -1,0 +1,47 @@
+/* Reset layout so React takes full screen */
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, Arial, Helvetica, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* Remove default Vite centering */
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Buttons */
+
+button {
+  border-radius: 6px;
+  border: none;
+  padding: 10px 16px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Inputs */
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 10px;
+}

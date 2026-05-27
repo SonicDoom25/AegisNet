@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+lightgbm
+pandas
+scikit-learn
+joblib
+numpy
+pyarrow
+python-jose
+passlib[bcrypt]
+bcrypt==4.0.1
+python-multipart
+sqlalchemy
+alembic
+shap
+
+axios
